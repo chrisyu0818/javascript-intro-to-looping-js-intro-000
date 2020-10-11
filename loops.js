@@ -16,11 +16,10 @@ function whileLoop(n) {
   }
   return "done"
 }
-function doWhileLoop() {
+function doWhileLoop(num) {
+  var i =1;
   do {
-    console.log("I run once regardless");
-  }while (num=0);
-  do {
-    console.log("I run once regardless");
-  } while (num=10);
+    console.log("I run once regardless.")''
+  }
+  while(i++ <num);
 }
